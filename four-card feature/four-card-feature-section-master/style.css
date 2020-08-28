@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins' 'sans-seriff';
+}
+
+.card-1 {
+    border-top: 3px solid rgba(135, 206, 235, 0.9);
+    border-radius: 8px;
+}
+
+.card-2 {
+    border-top: 3px solid rgba(255, 0, 0, 0.8);
+    border-radius: 8px;
+}
+
+.card-3 {
+    border-top: 3px solid rgba(255, 255, 0, 0.8);
+    border-radius: 8px;
+}
+
+.card-4 {
+    border-top: 3px solid rgba(0, 0, 255, 0.8);
+    border-radius: 8px;
+}
+
+h2,
+h3 {
+    color: hsl(234, 12%, 34%);
+}
+
+p {
+    color: hsl(229, 6%, 66%);
+}
+
+@media screen and (min-width:1268px) {
+    .con-2 {
+        /* height: 50vh !important; */
+    }
+    .row-1 {
+        height: 50vh !important;
+    }
+    .team-1 {
+        height: 28vh !important;
+    }
+    .team-2 {
+        height: 28vh !important;
+    }
+    .column-1 {
+        height: 28vh !important;
+        width: 25% !important;
+    }
+    .column-3 {
+        height: 28vh !important;
+    }
+}
